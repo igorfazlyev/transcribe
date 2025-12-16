@@ -1,0 +1,15 @@
+{
+  "name": "transcribe",
+  "version": "1.0.0",
+  "description": "transcribe files with opeAI",
+  "license": "ISC",
+  "author": "ivorfuzzle",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "openai": "^6.13.0"
+  }
+}
