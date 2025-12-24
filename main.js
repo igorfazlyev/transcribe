@@ -6,7 +6,7 @@ import path from "path";
 import { execFileSync } from "child_process";
 import OpenAI from "openai";
 
-const openai = new OpenAI({ apiKey: "api key goes here" });
+const openai = new OpenAI({ apiKey: "your api key goes here" });
 
 // Tune these:
 const MODEL = "gpt-4o-mini-transcribe"; // or "gpt-4o-transcribe" / "whisper-1"
